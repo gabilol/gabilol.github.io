@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;   
+}
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(backround%20image.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+}
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;         
+}
+
+.main-nav li.active a
+{ 
+    border: 1px solid white;
+}
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+.logo img
+{
+    width: 130px;
+    height: auto;
+    float: left;
+}
+
+p
+{
+    color:darkorange;
+    text-decoration: none;
+    padding-left:490px;
+    padding-top: 250px;
+    
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
